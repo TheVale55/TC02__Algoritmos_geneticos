@@ -1,0 +1,16 @@
+# Configuración C: Menos formas, más generaciones
+name: "Conf C - 'Menos' Circulos, Mas Gens"
+population_size: 50
+n_circles: 200
+generations: 500
+mutation_rate: 0.35
+mutation_sigma: 0.06
+reset_rate: 0.10
+tournament_k: 3
+elite_size: 5
+snapshot_every: 50  # Se guarda cada 50 generaciones, porque son más :)
+seed: 44
+width: 256
+height: 256
+target_image_path: "data/target/target.png"
+output_dir: "reports/figures/conf_c"

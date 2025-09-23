@@ -1,0 +1,15 @@
+# Configuración A: Baseline
+name: "Conf A - Baseline"
+population_size: 60
+n_circles: 100
+generations: 200
+mutation_rate: 0.15
+mutation_sigma: 0.05
+tournament_k: 3
+elite_size: 5
+snapshot_every: 20
+seed: 42
+width: 256
+height: 256
+target_image_path: "data/target/target.png"
+output_dir: "reports/figures/conf_a"

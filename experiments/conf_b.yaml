@@ -1,0 +1,16 @@
+# Configuración B: Más exploración (mutación alta, más círculos, probamos mutacion con reset total)
+name: "Conf B - Alta Exploracion"
+population_size: 100
+n_circles: 1500
+generations: 200
+mutation_rate: 0.30                           #? Mayor tasa de mutación
+mutation_sigma: 0.08                          #? Mayor ruido para mutación gaussiana  
+reset_rate: 0.15                              #? Probabilidad de hacer reset total en vez de mutación gaussiana
+tournament_k: 15
+elite_size: 15
+snapshot_every: 20
+seed: 43
+width: 256
+height: 256
+target_image_path: "data/target/target.png"
+output_dir: "reports/figures/conf_b"

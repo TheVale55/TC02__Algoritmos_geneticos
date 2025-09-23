@@ -1,0 +1,62 @@
+# =========================
+# CARPETAS GENERADAS (NO SUBIR)
+# =========================
+
+# Imágenes, snapshots, gráficas — ¡pesan mucho y se regeneran!
+reports/
+#data/target/
+
+# Archivos de configuración locales o temporales
+*.log
+*.tmp
+*.bak
+
+# =========================
+# ENTORNOS Y DEPENDENCIAS
+# =========================
+
+# Entorno virtual Python (si usas uno)
+venv/
+env/
+.venv/
+ENV/
+
+# Archivos de dependencias (si usas conda)
+environment.yml
+
+# =========================
+# PYTHON CACHE & METADATA
+# =========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# =========================
+# OTROS
+# =========================
+
+# Archivos de sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
