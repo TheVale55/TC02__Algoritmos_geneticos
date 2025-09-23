@@ -14,3 +14,11 @@ Este proyecto requiere las siguientes librerías de Python, instalables con `pip
 - **`Pillow` (PIL)**: Para cargar, manipular y guardar imágenes (carga de `target.png`, renderizado de círculos, guardado de snapshots).
 - **`matplotlib`**: Para generar gráficas de evolución del fitness (máximo y promedio por generación).
 - **`PyYAML`**: Para cargar configuraciones experimentales desde archivos `.yaml` (ajuste más sencillo de parámetros).
+
+## 🚀 Ejecutar
+
+Para ejecutar, abra una terminal en la raíz del proyecto, y ejecute el siguiente comando:
+
+**`python -m experiments.run_experiment --config experiments/conf_a.yaml`**
+
+Sustituyendo **`conf_a.yaml`** por **`conf_b.yaml`** o **`conf_c.yaml`** según requiera probar las diferentes configuraciones predeterminadas. 
