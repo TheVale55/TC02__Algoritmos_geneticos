@@ -1,12 +1,12 @@
 # TC02__Algoritmos_geneticos
 
-## 🎨 Trabajo de arte evolutivo con algoritmos genéticos.
+## Trabajo de arte evolutivo con algoritmos genéticos.
 
 > Aproximación de una imagen objetivo mediante composición evolutiva de círculos con color y transparencia.
 
 Este proyecto implementa un algoritmo genético que, generación tras generación, evoluciona una población de individuos (compuestos por círculos) para que la imagen renderizada se asemeje lo más posible a una imagen objetivo.
 
-## 📦 Dependencias
+## Dependencias
 
 Este proyecto requiere las siguientes librerías de Python, instalables con `pip`:
 
@@ -15,7 +15,7 @@ Este proyecto requiere las siguientes librerías de Python, instalables con `pip
 - **`matplotlib`**: Para generar gráficas de evolución del fitness (máximo y promedio por generación).
 - **`PyYAML`**: Para cargar configuraciones experimentales desde archivos `.yaml` (ajuste más sencillo de parámetros).
 
-## 🚀 Ejecutar
+## Ejecutar
 
 Para ejecutar, abra una terminal en la raíz del proyecto, y ejecute el siguiente comando:
 
