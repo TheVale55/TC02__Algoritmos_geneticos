@@ -5,7 +5,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent      
 SRC_DIR = REPO_ROOT / "src"
 sys.path.insert(0, str(SRC_DIR))
-# ----------------------------------------------------------------
 
 
 from pathlib import Path
